@@ -1,16 +1,14 @@
+import userData from '../DB/data.json';
+import { ForbesList } from './ForbesList/ForbesList';
+import css from './App.module.css';
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className={css.card}>
+      <div className={css.wrapper}>
+        <h1 className={css.title}>FORBES</h1>
+        <p className={css.text}>LEADERBORD</p>
+      </div>
+      <ForbesList userData={userData} />
     </div>
   );
 };

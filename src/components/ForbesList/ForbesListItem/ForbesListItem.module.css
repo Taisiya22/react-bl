@@ -1,0 +1,51 @@
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.avatar{
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.name {
+    margin-right: 20px ;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: grey;
+   
+}
+
+.capital{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(23, 166, 213);
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.dolar{
+    width: 30px;
+        height: 30px;
+        fill: rgb(23, 166, 213);
+}
+
+.wraper {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
