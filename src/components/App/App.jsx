@@ -1,5 +1,5 @@
-import userData from '../DB/data.json';
-import { ForbesList } from './ForbesList/ForbesList';
+import userData from '../data.json';
+import { ForbesList } from '../ForbesList/ForbesList';
 import css from './App.module.css';
 export const App = () => {
   return (
